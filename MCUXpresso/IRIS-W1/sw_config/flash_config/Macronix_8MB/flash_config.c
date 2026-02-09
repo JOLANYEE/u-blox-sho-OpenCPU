@@ -35,7 +35,7 @@ const fc_flexspi_nor_config_t flexspi_config = {
             .deviceType          = 0x1,
             .sflashPadType       = kSerialFlash_4Pads,
             .serialClkFreq       = 7,
-            .sflashA1Size        = 0x1000000U,
+            .sflashA1Size        = 0x4000000U,
             .sflashA2Size        = 0,
             .sflashB1Size        = 0,
             .sflashB2Size        = 0,
@@ -83,3 +83,4 @@ const fc_flexspi_nor_config_t flexspi_config = {
     .fcb_fill[0]        = 0xFFFFFFFF,
 };
 #endif /* BOOT_HEADER_ENABLE */
+
